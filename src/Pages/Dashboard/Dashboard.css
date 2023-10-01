@@ -1,0 +1,167 @@
+/* global: */
+.flex-content{
+display: flex;
+}
+.topbar{
+  background-color: #1a1814;
+}
+.go {
+  border-radius: 50px;
+  border: 2px solid #ffff00;
+  background-color: #ffffff;
+  padding: 0.8rem 0rem;
+  width: 10rem;
+}
+
+
+/* sideBar :*/
+.side-bar {
+    padding: 20px;
+    border-right: 1px solid black;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(192, 158, 62);
+    
+}
+.navbar-left i{
+  font-size: 2.8rem;
+  margin-right: 1.1rem;
+  margin-left: 1rem;
+  color : gold;
+}
+.navbar-left h1{
+  color:black;
+}
+.side-item{
+    display: block;
+    margin-bottom: 1rem;
+    color: #383408;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.1s;
+    padding: 7px;
+
+}
+.side-item:hover{
+  background-color: black;
+  color: gold;
+  border-radius: 1.5rem;
+}
+.active{
+  background-color: black;
+  color: gold;
+  border-radius: 1.5rem;
+}
+.side-item i{
+    font-size: 1.3rem;
+    margin-right: 10px;
+    color: goldenrod;
+}
+/* loading */
+.loading{
+  display: flex;
+  justify-content: center; /* يوسط أفقياً */
+  margin-top: 10rem;
+  height: 100vh; 
+overflow-y: hidden;}
+
+/*table:*/
+.table-container {
+  max-height: 80vh; /* تعيين ارتفاع أقصى يساوي ارتفاع الشاشة */
+  margin-top: 0.3rem;
+  overflow-y: auto; /* إضافة شريط التمرير العمودي عند الحاجة */
+  overflow-x: auto;
+}
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+        font-family: cario;
+        table-layout: fixed;
+        font-size: 1.1rem;
+    }
+
+    th, td {
+        border: 1px solid #000000;
+        padding: 8px;
+        text-align: center;
+
+    }
+
+    th {
+      background-color: rgb(192, 158, 62);
+      color: black;
+        position: sticky;
+        top: 0px;
+        font-weight: 800;
+    }
+    td{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2dd89;
+    }
+
+    tr:hover {
+      cursor: pointer;
+        background-color: #b3a675;
+        color: white;
+    }
+
+    /* pagination users */
+    .pagination {
+        text-align: center;
+      }
+      
+      .pagination li {
+        display: inline-block;
+        margin: 0 5px; /* تعيين هامش بين الأزرار إذا لزم الأمر */
+      }
+      
+      .pagination button {
+        width: 30px; /* عرض ثابت للأزرار */
+        height: 30px; /* ارتفاع ثابت للأزرار */
+        border: none;
+        background-color: #f2f2f2;
+        color: #333333;
+        cursor: pointer;
+        
+      }
+      
+      .pagination .active {
+        background-color: #99880a;
+        color: #fff;
+      }
+      
+      .pagination button:focus {
+        outline: none;
+      }
+ 
+      .search {
+        display: flex;
+        align-items: center;
+        width: 30%;
+          position: sticky;
+        background-color: rgb(235, 220, 180);
+        padding: 0.8rem;
+        border: 1px solid #4c4b40;
+      }
+      
+      .search i {
+        margin-right: 0.5rem; /* تباعد بين رمز البحث وحقل البحث */
+        color: rgb(129, 125, 115); /* لون رمز البحث */
+        font-size: 1.2rem; /* حجم رمز البحث */
+      }
+      .search input{
+        color:black;
+        background-color: rgb(235, 220, 180);
+        /* padding: 0.1rem; */
+        border:none
+      }
+      .search input:focus{
+outline: none;
+      }

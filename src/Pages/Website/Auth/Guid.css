@@ -1,0 +1,16 @@
+select {
+    width: 200px; /* يمكن تعديل القيمة وفقًا لاحتياجات التصميم */
+    color: #333; /* لون النص */
+    background-color: #fff; /* لون الخلفية */
+    font-size: 14px; /* حجم الخط */
+    font-family: Arial, sans-serif; /* نوع الخط */ 
+    margin: 10px; /* الهامش الخارجي */
+    border: 1px solid #ccc; /* حدود */
+    padding: 5px; /* الهامش الداخلي */
+  }
+  option {
+    background-color: #f5f5f5; /* لون الخلفية لكل عنصر */
+    color: #333; /* لون النص لكل عنصر */
+    padding: 5px; /* الهامش الداخلي لكل عنصر */
+  }
+  
